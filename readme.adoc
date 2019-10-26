@@ -1,0 +1,3 @@
+= Repository Management Scripts
+
+Collection of Ruby scripts to manage jQA's Github repositories.

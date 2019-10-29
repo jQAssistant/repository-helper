@@ -1,0 +1,14 @@
+#-------------------------------------------------------------------------------
+# List of all Milestones of jQAssistant
+#-------------------------------------------------------------------------------
+
+# Description of the used keys
+# toplevel YAML key           the name of the milestone
+# key 'description'           a hopefully helpful description of the milestone
+# key 'notAfter'              date on which a repository must have existed to
+#                             get this milestone added
+
+1.8.0:
+  description: Release 1.8.0 of jQA framework
+  notAfter: 2019-10-15
+

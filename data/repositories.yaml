@@ -37,4 +37,3 @@ framework:
   - jQAssistant/jqa-asciidoctor-utilities
   - jQAssistant/jqa-checkstyle-config
   - jQAssistant/jqa-own-constraints
-  - jQAssistant/jqa-uber-parent

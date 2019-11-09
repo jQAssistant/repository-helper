@@ -1,0 +1,93 @@
+#-------------------------------------------------------------------------------
+# List of all Issue labels
+#-------------------------------------------------------------------------------
+# Labels for jQA have been inspired by the JUnit team
+# https://github.com/junit-team/junit5/labels
+#
+# Colors are taken from https://www.rapidtables.com/web/color/RGB_Color.html
+#
+
+framework:
+  'type:bug':
+    description:
+      Software shows incorrect behavior or delivers incorrect results
+    color: '990000'
+
+  'type:enhancement':
+    description: >
+      Enhancement of the functionality of the software
+    color: '43d872'
+
+  'type:question':
+    description: A question asked by a user who needs help
+    color: 'cccccc'
+
+  'type:task':
+    description:
+      A piece of work that must be done, but does not represent a noticeable
+      change for the user
+    color: 'cccccc'
+
+#-------------------------------------------------------------------------------
+
+  'status:invalid':
+    description: >
+      The described facts are not correct and therefore no change is required.
+    color: '555555'
+
+  'status:duplicate':
+    description: >
+      This issue or pull request already exists
+    color: '663300'
+
+  'status:in progess':
+    description: A human being is working on this problem
+    color: 'ff8000'
+
+  'status:declined':
+    description:
+      The change implied or requested by this issue will
+      to be implemented
+    color: 'cccccc'
+
+  'status:reviewing':
+    description:
+      All work related to this issue has been done and
+      must be reviewed by the reporter or a team member
+    color: 'cccccc'
+
+  'status:waiting for user feedback':
+    description:
+      Feedback by the user who has filed this issue is required
+      to continue the work on this issue
+    color: 'ff9999'
+
+  'status:team discussion':
+    description:
+      The team needs to discuss how to deal with the issue's request
+    color: 'ffff33'
+
+  'status:waiting for interest':
+    description:
+      It is unclear to the team if the requested enhancement can
+      be usefull for a wider usergroup
+    color: 'cccccc'
+
+  'status:works as designed':
+    description:
+      The behavior described is intended as it is and
+      is exactly as it should be.
+    color: '66ff66'
+
+  'status:done':
+    description:
+      All work related to this issue has been done
+    color: '00994c'
+
+
+
+
+
+
+
+

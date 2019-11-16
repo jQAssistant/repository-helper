@@ -84,10 +84,26 @@ framework:
       All work related to this issue has been done
     color: '00994c'
 
+#-------------------------------------------------------------------------------
 
+  'topic:documentation':
+      description:
+        Changes or enhancements to the documentation are necessary for this issue
+      color: 'cccccc'
 
+  'topic:infrastructure':
+      color: 'cccccc'
+      description:
+        This issue mainly focuses on how jQA is build or which
+        libraries are used
 
+  'topic:performance':
+      color: 'cccccc'
+      description:
+        This issue mainly focuses on the performance of jQA
 
-
-
+  'topic:architecture':
+      color: 'cccccc'
+      description:
+        This issue mainly focuses or has impact on the performance of jQA
 

@@ -89,21 +89,21 @@ framework:
   'topic:documentation':
       description:
         Changes or enhancements to the documentation are necessary for this issue
-      color: 'cccccc'
+      color: 'ffff03'
 
   'topic:infrastructure':
-      color: 'cccccc'
+      color: 'ffff03'
       description:
         This issue mainly focuses on how jQA is build or which
         libraries are used
 
   'topic:performance':
-      color: 'cccccc'
+      color: 'ffff03'
       description:
         This issue mainly focuses on the performance of jQA
 
   'topic:architecture':
-      color: 'cccccc'
+      color: 'ffff03'
       description:
         This issue mainly focuses or has impact on the performance of jQA
 

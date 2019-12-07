@@ -5,6 +5,7 @@
 # List all repository which are a part of jQAssistant itself below
 # the key 'framework'
 framework:
+  - jQAssistant/jqa-asciidoc-report-plugin
   - jQAssistant/jqa-uber-parent
   - jQAssistant/jqa-m2repo-plugin
   - jQAssistant/jqa-manual

@@ -107,3 +107,8 @@ framework:
       description:
         This issue mainly focuses or has impact on the performance of jQA
 
+  'topic:security':
+      color: 'ffff03'
+      description:
+        This issue mainly focuses or has impact on the security of jQA
+

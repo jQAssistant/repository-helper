@@ -40,7 +40,7 @@ framework:
       This issue or pull request already exists
     color: '663300'
 
-  'status:in progess':
+  'status:in progress':
     description: A human being is working on this problem
     color: 'ff8000'
 

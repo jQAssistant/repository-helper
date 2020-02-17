@@ -44,7 +44,7 @@ repositories.each do |r|
 
     if repo_creation.to_date > ms['notAfter']
       print red, "\t\tMilestone has been defined before the creation of the repository\n", reset
-      break
+      next
     end
 
 

@@ -11,7 +11,7 @@ framework:
   'type:bug':
     description:
       Software shows incorrect behavior or delivers incorrect results
-    color: '990000'
+    color: '699916'
 
   'type:enhancement':
     description: >
@@ -20,13 +20,13 @@ framework:
 
   'type:question':
     description: A question asked by a user who needs help
-    color: 'cccccc'
+    color: 'b6ea19'
 
   'type:task':
     description:
       A piece of work that must be done, but does not represent a noticeable
       change for the user
-    color: 'cccccc'
+    color: '2baf67'
 
 #-------------------------------------------------------------------------------
 
@@ -48,13 +48,13 @@ framework:
     description:
       The change implied or requested by this issue will
       to be implemented
-    color: 'cccccc'
+    color: '606060'
 
   'status:reviewing':
     description:
       All work related to this issue has been done and
       must be reviewed by the reporter or a team member
-    color: 'cccccc'
+    color: 'ffb300'
 
   'status:waiting for user feedback':
     description:
@@ -71,7 +71,7 @@ framework:
     description:
       It is unclear to the team if the requested enhancement can
       be usefull for a wider usergroup
-    color: 'cccccc'
+    color: 'ffff33'
 
   'status:works as designed':
     description:

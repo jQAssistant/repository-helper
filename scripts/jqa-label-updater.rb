@@ -14,7 +14,9 @@ label_config_file = File.read(File.join(File.dirname(__FILE__ ),
                                             "../data/labels.yaml"))
 repo_config = YAML.load(repo_config_file)
 label_config = YAML.load(label_config_file)
-repositories = repo_config['framework']
+repositories_framework = repo_config['framework']
+repositories_tooling = repo_config['tooling']
+repositories_to_update = repositories_framework + repositories_tooling
 labels = label_config['framework']
 
 
@@ -26,7 +28,7 @@ client.auto_paginate = true
 # Oliver B. Fischer, 2019-11-05
 client.default_media_type = "application/vnd.github.v3+json,application/vnd.github.symmetra-preview+json"
 
-repositories.each do |r|
+repositories_to_update.each do |r|
   repo = client.repository(r)
 
   print bold, white, repo.full_name

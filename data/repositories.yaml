@@ -5,6 +5,9 @@
 # List all repository which are a part of jQAssistant itself below
 # the key 'framework'
 framework:
+  # Our hub should be always the first item in this list
+  - jQAssistant/jQA-Idea-And-Support-Hub
+  # All subsequent items should be sorted
   - jQAssistant/jqa-asciidoc-report-plugin
   - jQAssistant/jqa-uber-parent
   - jQAssistant/jqa-m2repo-plugin
@@ -39,3 +42,7 @@ framework:
   - jQAssistant/jqa-checkstyle-config
   - jQAssistant/jqa-own-constraints
   - jQAssistant/jqa-archivers-plugin
+
+tooling:
+  - jQAssistant/ci-github-action
+

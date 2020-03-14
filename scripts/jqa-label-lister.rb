@@ -10,8 +10,10 @@ print yellow, "jQA Label Lister", reset, "\n"
 
 config_file = File.read(File.join(File.dirname(__FILE__),
                                   "../data/repositories.yaml"))
-config = YAML.load(config_file)
-framework = config['framework']
+repo_config = YAML.load(config_file)
+repositories_framework = repo_config['framework']
+repositories_tooling = repo_config['tooling']
+repositories_to_update = repositories_framework + repositories_tooling
 client = Octokit::Client.new(:netrc => true)
 client.auto_paginate = true
 
@@ -20,7 +22,7 @@ client.auto_paginate = true
 # Oliver B. Fischer, 2019-11-05
 client.default_media_type = "application/vnd.github.v3+json,application/vnd.github.symmetra-preview+json"
 
-framework.each do |r|
+repositories_to_update.each do |r|
   repo = client.repository(r)
 
   print bold, white, repo.full_name, " (", repo.name, ")", reset, "\n"

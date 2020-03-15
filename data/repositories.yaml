@@ -17,6 +17,7 @@ framework:
   - jQAssistant/jqa-distribution-specification
   - jQAssistant/jqa-spring-plugin
   - jQAssistant/jqa-graphml-plugin
+  - jQAssistant/jqa-graphql-plugin
   - jQAssistant/jqa-json-plugin
   - jQAssistant/jqa-rdbms-plugin
   - jQAssistant/jqa-tycho-plugin

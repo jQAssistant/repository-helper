@@ -26,3 +26,10 @@
   # Oliver B. Fischer // 2020-02-15
   notAfter: 2099-12-31
 
+1.11.0:
+  description: Release 1.11.0 of the jQA framework
+  # Set notAfter after the release of jQA 1.10.0
+  # to the release date of 1.10.0
+  # Oliver B. Fischer // 2020-04-23
+  notAfter: 2100-12-31
+

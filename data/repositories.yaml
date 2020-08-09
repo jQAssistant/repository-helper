@@ -6,7 +6,7 @@
 # the key 'framework'
 framework:
   # Our hub should be always the first item in this list
-  - jQAssistant/jQA-Idea-And-Support-Hub
+  - jQAssistant/jQA-Idea-Hub
   # All subsequent items should be sorted
   - jQAssistant/jqa-asciidoc-report-plugin
   - jQAssistant/jqa-uber-parent

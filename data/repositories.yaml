@@ -45,4 +45,4 @@ framework:
 
 tooling:
   - jQAssistant/ci-github-action
-
+  - jQAssistant/jqa-docker-image-official

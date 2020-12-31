@@ -29,7 +29,6 @@ framework:
   - jQAssistant/jqa-cdi-plugin
   - jQAssistant/jqa-jaxrs-plugin
   - jQAssistant/jqa-jpa2-plugin
-  - jQAssistant/jqa-java8-plugin
   - jQAssistant/jqa-junit-plugin
   - jQAssistant/jqa-yaml2-plugin
   - jQAssistant/jqa-yaml-plugin
